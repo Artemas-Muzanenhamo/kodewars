@@ -1,4 +1,4 @@
-package com.artemas.codewars.fundamentals
+package com.artemas.codewars.fundamentals.kyu8
 
 class Opposite {
   companion object {

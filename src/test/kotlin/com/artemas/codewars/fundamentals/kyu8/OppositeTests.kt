@@ -1,6 +1,6 @@
-package com.artemas.codewars.fundamentals
+package com.artemas.codewars.fundamentals.kyu8
 
-import com.artemas.codewars.fundamentals.Opposite.Companion.opposite
+import com.artemas.codewars.fundamentals.kyu8.Opposite.Companion.opposite
 import org.junit.Test
 import kotlin.test.assertEquals
 

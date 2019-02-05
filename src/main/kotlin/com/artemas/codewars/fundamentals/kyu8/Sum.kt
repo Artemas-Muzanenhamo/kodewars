@@ -1,4 +1,4 @@
-package com.artemas.codewars.fundamentals
+package com.artemas.codewars.fundamentals.kyu8
 
 class Sum {
     fun sumPositives(numbers: IntArray): Int = numbers.filter { (it > 0) }.sum()
