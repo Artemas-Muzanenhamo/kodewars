@@ -1,13 +1,13 @@
 package com.artemas.codewars.fundamentals.functional
 
-import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumNegatives
-import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumNegativesSquared
-import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumPositives
-import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumPositivesSquared
+import com.artemas.codewars.fundamentals.functional.Filtering.Companion.sumNegatives
+import com.artemas.codewars.fundamentals.functional.Filtering.Companion.sumNegativesSquared
+import com.artemas.codewars.fundamentals.functional.Filtering.Companion.sumPositives
+import com.artemas.codewars.fundamentals.functional.Filtering.Companion.sumPositivesSquared
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
-class FilterDemoTest {
+class FilteringTest {
     private val listOfNumbers: List<Int> = listOf(20, -10, 33, 44, -2, -94, 22)
 
     @Test

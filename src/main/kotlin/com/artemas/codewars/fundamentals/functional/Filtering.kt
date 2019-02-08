@@ -1,6 +1,6 @@
 package com.artemas.codewars.fundamentals.functional
 
-class FilterDemo {
+class Filtering {
     companion object {
         fun sumPositives(listOfNumber: List<Int>): Int = listOfNumber.filter { it > 0 }.sum()
         fun sumNegatives(listOfNumber: List<Int>): Int = listOfNumber.filter { it < 0 }.sum()
