@@ -4,7 +4,7 @@ import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumNega
 import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumNegativesSquared
 import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumPositives
 import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumPositivesSquared
-import org.junit.Test
+import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
 class FilterDemoTest {
