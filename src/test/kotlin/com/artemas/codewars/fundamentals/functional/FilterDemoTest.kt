@@ -1,6 +1,7 @@
 package com.artemas.codewars.fundamentals.functional
 
 import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumNegatives
+import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumNegativesSquared
 import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumPositives
 import com.artemas.codewars.fundamentals.functional.FilterDemo.Companion.sumPositivesSquared
 import org.junit.jupiter.api.Test
@@ -22,5 +23,10 @@ class FilterDemoTest {
     @Test
     fun testPositiveSumSquared() {
         assertEquals(3909, sumPositivesSquared(listOfNumbers))
+    }
+
+    @Test
+    fun testNegativesSumSquared() {
+        assertEquals(8940, sumNegativesSquared(listOfNumbers))
     }
 }
