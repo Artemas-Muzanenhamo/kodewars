@@ -1,6 +1,6 @@
 package com.artemas.codewars.fundamentals.functional
 
-import com.artemas.codewars.fundamentals.functional.Flatmapping.Companion.sumSubLists
+import com.artemas.codewars.fundamentals.functional.FlatMapping.Companion.sumSubLists
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
