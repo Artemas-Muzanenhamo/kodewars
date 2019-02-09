@@ -8,10 +8,10 @@ class AbbrevNameTest {
 
     @Test
     fun testNames() {
-        assertEquals(abbrevName("Sam Harris"), "S.H");
-        assertEquals(abbrevName("Patrick Feenan"), "P.F");
-        assertEquals(abbrevName("Evan Cole"), "E.C");
-        assertEquals(abbrevName("P Favuzzi"), "P.F");
-        assertEquals(abbrevName("David Mendieta"), "D.M");
+        assertEquals(abbrevName("Sam Harris"), "S.H")
+        assertEquals(abbrevName("Patrick Feenan"), "P.F")
+        assertEquals(abbrevName("Evan Cole"), "E.C")
+        assertEquals(abbrevName("P Favuzzi"), "P.F")
+        assertEquals(abbrevName("David Mendieta"), "D.M")
     }
 }
