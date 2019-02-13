@@ -1,10 +1,8 @@
 package com.artemas.codewars.fundamentals.kyu8
 
 import com.artemas.codewars.fundamentals.kyu8.Multiply.Companion.multiply
-import org.junit.Test
-
 import org.junit.Assert.assertEquals
-import kotlin.test.assertEquals
+import org.junit.Test
 
 internal class MultiplyTest {
 	@Test
