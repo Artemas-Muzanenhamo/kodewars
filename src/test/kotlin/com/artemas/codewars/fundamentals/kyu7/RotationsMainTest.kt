@@ -1,8 +1,8 @@
 package com.artemas.codewars.fundamentals.kyu7
 
 import com.artemas.codewars.fundamentals.kyu7.RotationsMain.Companion.containAllRots
-import org.junit.Assert.*
-import org.junit.Test
+import org.junit.jupiter.api.Test
+import kotlin.test.assertEquals
 
 class RotationsMainTest {
   private fun testing(actual:Boolean, expected:Boolean) {
