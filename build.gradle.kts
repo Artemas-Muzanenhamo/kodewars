@@ -23,7 +23,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 
     // Use the Kotlin JUnit integration.
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+//    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 
     // JUnit5
     testImplementation("org.junit.jupiter:junit-jupiter:5.4.0")
