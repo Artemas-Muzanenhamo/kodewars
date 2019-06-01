@@ -1,7 +1,6 @@
 package com.artemas.codewars.fundamentals.functional
 
 import com.artemas.codewars.fundamentals.functional.Mapping.Companion.addNumbersSquared
-import com.artemas.codewars.fundamentals.functional.Mapping.Companion.mapToPerson
 import com.artemas.codewars.fundamentals.functional.Mapping.Companion.squaredNumbers
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
