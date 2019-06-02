@@ -1,7 +1,7 @@
 package com.artemas.codewars.fundamentals.kyu8
 
 import com.artemas.codewars.fundamentals.kyu8.Opposite.Companion.opposite
-import org.junit.Test
+import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
 class OppositeTests {

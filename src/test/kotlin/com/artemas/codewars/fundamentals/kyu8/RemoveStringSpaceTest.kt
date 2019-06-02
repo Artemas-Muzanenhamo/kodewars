@@ -1,8 +1,8 @@
 package com.artemas.codewars.fundamentals.kyu8
 
 import com.artemas.codewars.fundamentals.kyu8.RemoveStringSpace.Companion.noSpace
+import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
-import org.junit.Test
 
 class RemoveStringSpaceTest {
   @Test

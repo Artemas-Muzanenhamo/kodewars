@@ -1,7 +1,7 @@
 package com.artemas.codewars.fundamentals.kyu8
 
-import org.junit.Assert.assertEquals
-import org.junit.Test
+import org.junit.jupiter.api.Test
+import kotlin.test.assertEquals
 
 class GrasshopperSummationTest {
   @Test
