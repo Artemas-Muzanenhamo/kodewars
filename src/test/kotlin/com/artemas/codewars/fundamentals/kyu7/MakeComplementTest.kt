@@ -19,8 +19,11 @@ makeComplement("GTAT") // return "CATA"
 class MakeComplementTest {
     @Test
     fun testDNA() {
-        // TODO: Make these pass
-//        assertEquals("TTTT", makeComplement("AAAA"))
-//        assertEquals("TAACG", makeComplement("ATTGC"))
+        assertEquals("TTTT", makeComplement("AAAA"))
+    }
+
+    @Test
+    fun testTAACG() {
+        assertEquals("TAACG", makeComplement("ATTGC"))
     }
 }

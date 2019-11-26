@@ -2,10 +2,11 @@ package com.artemas.codewars.fundamentals.kyu7
 
 fun makeComplement(dna : String) : String {
     // C -> G
+    // G -> C
     // T -> A
-    dna.filter { letter -> letter == 'A' }
-    return dna.replace("A", "T", true)
-            .replace("T", "A", true)
-            .replace("C", "G", true)
-            .replace("G", "C", true)
+    // A -> T
+    val escapeAsAndCs = Regex("([TC])+")
+    val replacedDna = dna.replace(escapeAsAndCs, "T")
+    print(replacedDna)
+    return replacedDna
 }
