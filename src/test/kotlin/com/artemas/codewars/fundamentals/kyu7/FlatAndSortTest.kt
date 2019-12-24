@@ -2,9 +2,6 @@ package com.artemas.codewars.fundamentals.kyu7
 
 import org.junit.jupiter.api.Assertions.assertArrayEquals
 import org.junit.jupiter.api.Test
-import java.util.*
-import java.util.stream.IntStream.generate
-import kotlin.math.min
 
 
 class FlatAndSortTest {
