@@ -7,4 +7,6 @@ fun highAndLow(numbers: String): String {
     val min = values.min()
 
     return "$max $min"
+
+    // fun highAndLow(numbers: String) = numbers.split(' ').map(String::toInt).let { "${it.max()} ${it.min()}" }
 }
