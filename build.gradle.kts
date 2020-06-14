@@ -28,3 +28,10 @@ dependencies {
     // JUnit5
     testImplementation("org.junit.jupiter:junit-jupiter:5.4.0")
 }
+
+tasks {
+    // Use the built-in JUnit support of Gradle.
+    "test"(Test::class) {
+        useJUnitPlatform()
+    }
+}
