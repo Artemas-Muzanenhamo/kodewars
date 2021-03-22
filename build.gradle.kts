@@ -33,5 +33,8 @@ tasks {
     // Use the built-in JUnit support of Gradle.
     "test"(Test::class) {
         useJUnitPlatform()
+        testLogging {
+            events("PASSED", "FAILED", "SKIPPED")
+        }
     }
 }
