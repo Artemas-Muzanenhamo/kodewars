@@ -13,5 +13,7 @@ class AbbrevNameTest {
         assertEquals(abbrevName("Evan Cole"), "E.C")
         assertEquals(abbrevName("P Favuzzi"), "P.F")
         assertEquals(abbrevName("David Mendieta"), "D.M")
+        assertEquals(abbrevName("george clooney"), "G.C")
+        assertEquals(abbrevName("lDueDtAcYgkPmRUzLJ RjusYVBZvsoCqhh"), "L.R")
     }
 }
