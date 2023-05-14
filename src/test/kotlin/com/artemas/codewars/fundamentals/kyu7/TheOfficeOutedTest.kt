@@ -1,6 +1,5 @@
 package com.artemas.codewars.fundamentals.kyu7
 
-import com.artemas.codewars.fundamentals.kyu7.TheOfficeOuted.Companion.outed
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
